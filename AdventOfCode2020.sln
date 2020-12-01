@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdventOfCode2020", "AdventOfCode2020\AdventOfCode2020.vcxproj", "{26F3D07B-DB6E-488D-BF29-910286029DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F3D07B-DB6E-488D-BF29-910286029DDD}.Debug|x64.ActiveCfg = Debug|x64
+		{26F3D07B-DB6E-488D-BF29-910286029DDD}.Debug|x64.Build.0 = Debug|x64
+		{26F3D07B-DB6E-488D-BF29-910286029DDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{26F3D07B-DB6E-488D-BF29-910286029DDD}.Debug|x86.Build.0 = Debug|Win32
+		{26F3D07B-DB6E-488D-BF29-910286029DDD}.Release|x64.ActiveCfg = Release|x64
+		{26F3D07B-DB6E-488D-BF29-910286029DDD}.Release|x64.Build.0 = Release|x64
+		{26F3D07B-DB6E-488D-BF29-910286029DDD}.Release|x86.ActiveCfg = Release|Win32
+		{26F3D07B-DB6E-488D-BF29-910286029DDD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B477B1D1-1A5B-4AAF-8048-D69FCD6DA7BA}
+	EndGlobalSection
+EndGlobal
