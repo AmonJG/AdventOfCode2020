@@ -141,11 +141,13 @@
   <ItemGroup>
     <ClCompile Include="AdventOfCode2020.cpp" />
     <ClCompile Include="AdventOfCodeDay1.cpp" />
+    <ClCompile Include="AdventOfCodeDay2.cpp" />
     <ClCompile Include="AdventOfCodeTask.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AdventOfCode2020.h" />
     <ClInclude Include="AdventOfCodeDay1.h" />
+    <ClInclude Include="AdventOfCodeDay2.h" />
     <ClInclude Include="AdventOfCodeTask.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
