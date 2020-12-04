@@ -30,6 +30,9 @@
     <ClCompile Include="AdventOfCodeDay3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AdventOfCodeDay4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AdventOfCode2020.h">
@@ -38,13 +41,7 @@
     <ClInclude Include="AdventOfCodeTask.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AdventOfCodeDay1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AdventOfCodeDay2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AdventOfCodeDay3.h">
+    <ClInclude Include="AdventOfCodeDays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

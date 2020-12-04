@@ -2,6 +2,7 @@
 #include <functional>
 #include <map>
 #include "AdventOfCode2020.h"
+#include "AdventOfCodeDays.h"
 
 template <typename AdventOfCodeFunctionType>
 AdventOfCodeTaskPtr GenerateTaskObject()
@@ -16,7 +17,9 @@ std::map<int, std::function<AdventOfCodeTaskPtr()>> const dayFunctions =
     { 3, GenerateTaskObject<AdventOfCodeTask1Day2> },
     { 4, GenerateTaskObject<AdventOfCodeTask2Day2> },
     { 5, GenerateTaskObject<AdventOfCodeTask1Day3> },
-    { 6, GenerateTaskObject<AdventOfCodeTask2Day3> }
+    { 6, GenerateTaskObject<AdventOfCodeTask2Day3> },
+    { 7, GenerateTaskObject<AdventOfCodeTask1Day4> },
+    { 8, GenerateTaskObject<AdventOfCodeTask2Day4> }
 };
 
 void PrintLineStart()

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "AdventOfCodeDay2.h"
+#include "AdventOfCodeDays.h"
 
 AdventOfCodeTask1Day2::AdventOfCodeTask1Day2()
 {
@@ -19,7 +19,7 @@ AdventOfCodeTask1Day2::AdventOfCodeTask1Day2()
 		password = inputEntry.substr(inputEntry.find_first_of(':') + 2);
 
 		int charCount = 0;
-		for(int i = 0; i < password.size(); i++)
+		for(size_t i = 0; i < password.size(); i++)
 		{
 			if (password[i] == policyChar)charCount++;
 		}

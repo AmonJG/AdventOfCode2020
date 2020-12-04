@@ -1,5 +1,4 @@
 #include "AdventOfCodeTask.h"
-#include "iostream"
 
 AdventOfCodeTask::AdventOfCodeTask()
 {

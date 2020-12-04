@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "AdventOfCodeDay3.h"
+#include "AdventOfCodeDays.h"
 
 AdventOfCodeTask1Day3::AdventOfCodeTask1Day3()
 {
@@ -10,7 +10,7 @@ AdventOfCodeTask1Day3::AdventOfCodeTask1Day3()
 	auto inputStream = GetInput("Day3.txt");
 
 	int treeCounter = 0;
-	int xPos = 0;
+	size_t xPos = 0;
 	while (inputStream >> inputLine)
 	{
 		if (inputLine[xPos] == '#')treeCounter++;
@@ -28,7 +28,7 @@ AdventOfCodeTask2Day3::AdventOfCodeTask2Day3()
 	struct Shift
 	{
 		int const rightShift, downShift;
-		int xPos = 0;
+		size_t xPos = 0;
 		int treeCounter = 0;
 	};
 
@@ -46,7 +46,7 @@ AdventOfCodeTask2Day3::AdventOfCodeTask2Day3()
 	int currentRow = 0;
 	while (inputStream >> inputLine)
 	{
-		for (int i = 0; i < Shifts.size(); i++)
+		for (size_t i = 0; i < Shifts.size(); i++)
 		{
 			if (currentRow % Shifts[i].downShift) break;
 			if (inputLine[Shifts[i].xPos] == '#')Shifts[i].treeCounter++;
@@ -59,7 +59,7 @@ AdventOfCodeTask2Day3::AdventOfCodeTask2Day3()
 		currentRow++;
 	}
 	int treeProduct = 1;
-	for (int i = 0; i < Shifts.size(); i++)
+	for (size_t i = 0; i < Shifts.size(); i++)
 	{
 		treeProduct *= Shifts[i].treeCounter;
 	}

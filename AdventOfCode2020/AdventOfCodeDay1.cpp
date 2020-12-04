@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "AdventOfCodeDay1.h"
+#include "AdventOfCodeDays.h"
 
 AdventOfCodeTask1Day1::AdventOfCodeTask1Day1()
 {
@@ -15,7 +15,7 @@ AdventOfCodeTask1Day1::AdventOfCodeTask1Day1()
 		{
 			if (inputList[inputList.size() - 1] + inputList[i - 1] == 2020)
 			{
-				std::cout << inputList[inputList.size() - 1] * inputList[i - 1] << std::endl;
+				std::cout << inputList[inputList.size() - 1] * inputList[i - 1];
 				return;
 			}
 		}
@@ -37,7 +37,7 @@ AdventOfCodeTask2Day1::AdventOfCodeTask2Day1()
 			{
 				if (inputList[inputList.size() - 1] + inputList[i - 1] + inputList[x - 2] == 2020)
 				{
-					std::cout << inputList[inputList.size() - 1] * inputList[i - 1] * inputList[x - 2] << std::endl;
+					std::cout << inputList[inputList.size() - 1] * inputList[i - 1] * inputList[x - 2];
 					return;
 				}
 			}
