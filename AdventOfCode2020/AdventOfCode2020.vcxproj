@@ -144,6 +144,8 @@
     <ClCompile Include="AdventOfCodeDay2.cpp" />
     <ClCompile Include="AdventOfCodeDay3.cpp" />
     <ClCompile Include="AdventOfCodeDay4.cpp" />
+    <ClCompile Include="AdventOfCodeDay5.cpp" />
+    <ClCompile Include="AdventOfCodeDay6.cpp" />
     <ClCompile Include="AdventOfCodeTask.cpp" />
   </ItemGroup>
   <ItemGroup>
