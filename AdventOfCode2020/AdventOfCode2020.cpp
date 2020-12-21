@@ -23,7 +23,9 @@ std::map<int, std::function<AdventOfCodeTaskPtr()>> const dayFunctions =
     { 9, GenerateTaskObject<AdventOfCodeTask1Day5> },
     { 10, GenerateTaskObject<AdventOfCodeTask2Day5> },
     { 11, GenerateTaskObject<AdventOfCodeTask1Day6> },
-    { 12, GenerateTaskObject<AdventOfCodeTask2Day6> }
+    { 12, GenerateTaskObject<AdventOfCodeTask2Day6> },
+    { 13, GenerateTaskObject<AdventOfCodeTask1Day7> },
+    { 14, GenerateTaskObject<AdventOfCodeTask2Day7> }
 };
 
 void PrintLineStart()
